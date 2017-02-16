@@ -1,0 +1,25 @@
+<table class="table booktable">
+    <tr>
+        <td><h3>Details for {{book.title}}</h3></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Book Title</td>
+        <td>{{book.title}}</td>
+    </tr>
+    <tr>
+        <td>Author</td>
+        <td>{{book.author}}</td>
+    </tr>
+    <tr>
+        <td>Release Year</td>
+        <td>{{book.releaseYear}}</td>
+    </tr>
+    <tr>
+        <td>Book Genre</td>
+        <td>{{book.genre}}</td>
+    </tr>
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="editBook({id:book._id})">Edit</a>
+</div>
