@@ -1,13 +1,26 @@
 {
-  "name": "BookApp",
+  "name": "bookapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "crud application",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Muthuraman",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthu-97/crud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muthu-97/crud/issues"
+  },
+  "homepage": "https://github.com/muthu-97/crud#readme",
+  "dependencies": {
+        "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "body-parser": "^1.16.1"
+  }
 }
