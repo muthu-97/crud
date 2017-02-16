@@ -1,5 +1,5 @@
 angular.module('bookApp.services',[]).factory('Book',function($resource){
-    return $resource('http://crud-app-ajs.herokuapp.com/api/books/:id',{id:'@_id'},{
+    return $resource('https://crud-app-ajs.herokuapp.com/api/books/:id',{id:'@_id'},{
         update: {
             method: 'PUT'
         }
